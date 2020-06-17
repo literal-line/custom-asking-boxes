@@ -15,7 +15,7 @@ defaultAskingBox = function() {
     askingBox.removeProperty('transform');
     askingBox.backgroundColor = 'rgba(33, 33, 33, 0.7)';
     askingBox.removeProperty('border');
-    askingBox.removeProperty('borderRadius');
+    askingBox.borderRadius = '0px';
     askingBox.fontFamily = 'sans-serif';
 
     question.margin = '0 10px';
@@ -23,7 +23,7 @@ defaultAskingBox = function() {
     question.removeProperty('paddingBottom');
     question.fontSize = '12px';
     question.color = '#FFFFFF'
-    question.removeProperty('borderBottom');
+    question.borderBottom = '0px';
 
     answer.border = 'none';
     answer.background = 'none';
